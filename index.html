@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Navbar</title>
+    <style>
+        /* Mobile Device */
+        @media (max-width:700px){
+        }
+        /* Tablet Device */
+
+        @media (min-width: 701px) and (max-width: 992px) {
+        }
+        /*Laptop Device */
+        @media (min-width: 993px) and (max-width: 1200px) {
+        }
+        .product-container{
+            display: flex;
+        }
+        .country-card{
+        width: 250px;
+        height: 500px;
+        border: 1px solid black;
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 2);
+        border-radius: 10px;
+        }
+    .country-img{
+        height: 170px;
+        width: 190px;
+        object-fit: contain;
+        display: block;
+        margin: 10px auto;
+    }
+    .heading{
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+  }
+  .btn{
+    background-color: aqua;
+    
+  }
+    </style>
+</head>
+<body>
+    <div class="product-container">
+        <div class="country-card">
+        <img src="burj-khalifa.png" class="country-img" alt="dubai"/>
+        <h1 class="heading">Burj Khalifa,Dubai</h1>
+        <ul>
+            <li>📍 Location: Dubai, United Arab Emirates (UAE)</li>
+            <li>📏 Height: 828 meters (2,717 feet)</li>
+            <li>🏗️ Construction Period: 2004 - 2010</li>
+            <li>🎉 Opening Date: January 4, 2010</li>
+            <li>👷 Architect: Adrian Smith (Skidmore, Owings & Merrill)</li>
+            <li>🏢 Floors: 163 (plus maintenance levels)</li>
+        </ul>
+        <button class="btn">
+        <a href="https://en.wikipedia.org/wiki/Burj_Khalifa" target="_blank">Know More</a></button>
+        </div>
+        <div class="country-card"><img src="fuji.png" class="country-img" alt="japan"/>
+        <h1 class="heading">Mount-Fuji,Japan</h1>
+        <ul>
+            <li>📍 Location: Honshu, Japan</li>
+            <li>📏 Height: 3,776 meters (12,389 feet) – Japan’s tallest mountain</li>
+            <li>🌋 Type: Stratovolcano (dormant but active)</li>
+            <li>🗓️ Last Eruption: 1707-1708 (Hōei Eruption)</li>
+            <li>🛤️ First Ascent: 663 AD (by a Buddhist monk)</li>
+            <li>⛩️ Cultural Significance: Sacred site in Shinto and Buddhist traditions</li>
+        </ul>
+    </div>
+    </div>
+</body>
+</html>
