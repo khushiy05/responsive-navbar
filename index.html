@@ -22,12 +22,17 @@
         width: 250px;
         height: 550px;
         border: 1px solid black;
-        margin: 10px;
         padding: 10px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 2);
         border-radius: 10px;
         background-color: #D69ADE;
-        margin: 20px;
+        margin: 45px;
+        position: relative;
+        }
+        .country-card:hover{
+            cursor: pointer;
+            transition: 0.5s;
+            box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
         }
        .country-img{
         height: 170px;
@@ -58,9 +63,13 @@
     font-weight: bold;
     padding: 10px 15px;
   }
-  .flag-icon{
-    height: 50px;
-    width: 5-0px;
+  
+  .flag{
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
   }
     </style>
 </head>
@@ -68,6 +77,7 @@
     <div class="product-container">
         <div class="country-card">
         <img src="burj-khalifa.png" class="country-img" alt="dubai"/>
+        <img src="flag.png" class="flag" alt="dubai-flag"/>
         <h1 class="heading">Burj Khalifa,Dubai</h1>
         <ul>
             <li>📍 Location: Dubai, United Arab Emirates (UAE)</li>
@@ -81,7 +91,9 @@
         <a href="https://en.wikipedia.org/wiki/Burj_Khalifa" target="_blank">Discover More</a></button>
         </div>
 
-        <div class="country-card"><img src="fuji.png" class="country-img" alt="japan"/>
+        <div class="country-card">
+        <img src="fuji.png" class="country-img" alt="japan"/>
+        <img src="japan.png" class="flag" alt="japan-flag"/>
         <h1 class="heading">Mount-Fuji,Japan</h1>
         <ul>
             <li>📍 Location: Honshu, Japan</li>
@@ -97,6 +109,7 @@
 
     <div class="country-card">
         <img src="korea.png" class="country-img" alt="korea"/>
+        <img src="south-korea.png" class="flag" alt="korean-flag"/>
         <h1 class="heading">Gyeongbokgung Palace,seoul,Korea</h1>
         <ul>
             <li>📍 Location: 161 Sajik-ro, Jongno-gu, Seoul, South Korea</li>
@@ -110,6 +123,7 @@
 
         <div class="country-card">
             <img src="pharaoh.png" class="country-img" alt="egypt"/>
+            <img src="flag (1).png" class="flag" alt="egypt-flag"/>
             <h1 class="heading">Pharaohs of Ancient Egypt 🇪🇬</h1>
             <ul>
                 <li>📍 Civilization: Ancient Egypt</li>
