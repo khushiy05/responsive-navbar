@@ -7,10 +7,11 @@
     <style>
         .product-container{
             display: flex;
+            flex-wrap: wrap;
         }
         .country-card{
-        width: 250px;
-        height: 570px;
+        width: 300px;
+        height: 550px;
         border: 1px solid black;
         padding: 10px;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 2);
@@ -18,6 +19,7 @@
         background-color: #D69ADE;
         margin: 10px;
         position: relative;
+        
         }
         .country-card:hover{
             cursor: pointer;
@@ -46,6 +48,7 @@
         display: block;
         margin: 10px auto;
         font-size: 15px;
+        width: 100px;
         }
   .btn:hover{
     color: white;
@@ -67,7 +70,8 @@
         background-color: rgb(244, 250, 215);
     }
     .country-card{
-        height: 670px;
+        height: 520px;
+        width: 350px;
     }
 
         }
@@ -78,7 +82,8 @@
         background-color: rgb(57, 57, 225);
     }
             .country-card{
-        height: 670px;
+        height: 520px;
+        width: 350px;
     }
 
         }
@@ -88,7 +93,8 @@
         background-color: rgb(255, 71, 237);
     }
             .country-card{
-        height: 670px;
+        height: 520px;
+        width: 350px;
     }
         }
     </style>
@@ -107,8 +113,7 @@
             <li>👷 Architect: Adrian Smith (Skidmore, Owings & Merrill)</li>
             <li>🏢 Floors: 163 (plus maintenance levels)</li>
         </ul>
-        <button class="btn">
-        <a href="https://en.wikipedia.org/wiki/Burj_Khalifa" target="_blank">Discover More</a></button>
+        <a href="https://en.wikipedia.org/wiki/Burj_Khalifa" target="_blank" class="btn">Discover More</a>
         </div>
 
         <div class="country-card">
@@ -123,8 +128,7 @@
             <li>🛤️ First Ascent: 663 AD (by a Buddhist monk)</li>
             <li>⛩️ Cultural Significance: Sacred site in Shinto and Buddhist traditions</li>
         </ul>
-        <button class="btn">
-        <a href="https://en.wikipedia.org/wiki/Mount_Fuji" target="_blank">Discover More</a></button>
+        <a href="https://en.wikipedia.org/wiki/Mount_Fuji" target="_blank" class="btn">Discover More</a>
     </div>
 
     <div class="country-card">
@@ -137,8 +141,7 @@
             <li>👑 Founder: King Taejo</li>
             <li>📜 Historical Events: Destroyed during Japanese invasions (1592), restored in the 19th century, damaged during Japanese occupation (1910-1945), ongoing restoration since 1990.</li>
         </ul>
-        <button class="btn">
-        <a href="https://en.wikipedia.org/wiki/Gyeongbokgung" target="_blank">Discover More</a></button>
+        <a href="https://en.wikipedia.org/wiki/Gyeongbokgung" target="_blank" class="btn">Discover More</a>
         </div>
 
         <div class="country-card">
@@ -152,8 +155,7 @@
                 <li>🏗️ Notable Constructions: Pyramids, Temples, Sphinx, Valley of the Kings</li>
                 <li>🪦 Burial Sites: Pyramids of Giza, Valley of the Kings, Saqqara</li>
             </ul>
-            <button class="btn">
-            <a href="https://en.wikipedia.org/wiki/List_of_pharaohs" target="_blank">Discover More</a></button>
+            <a href="https://en.wikipedia.org/wiki/List_of_pharaohs" target="_blank" class="btn">Discover More</a>
             </div>
 
             <div class="country-card">
@@ -165,12 +167,27 @@
                     <li>🏗️ Architectural Style: Postmodern with Islamic-inspired design</li>
                     <li>📏 Height: 451.9 meters (1,483 feet)</li>
                     <li>🏗️ Notable Constructions: Pyramids, Temples, Sphinx, Valley of the Kings</li>
-                    <li>🏢 Notable Features: Twin towers, Skybridge (41st & 42nd floors), 88 floors</li>
+                    <li>🦁 Notable Features: Large entrance hall, Assyrian-inspired Lamassu statues (winged bulls with human heads)</li>
+                    <li>🏛️ Function: Grand entrance to Persepolis, symbolizing unity of the empire</li>
                 </ul>
-                <button class="btn">
-                <a href="https://en.wikipedia.org/wiki/Petronas_Towers" target="_blank">Discover More</a>
-                </button>
+                <a href="https://en.wikipedia.org/wiki/Petronas_Towers" target="_blank" class="btn">Discover More</a>
                 </div>
+
+                    <div class="country-card">
+                    <img src="gate-of-all-nations.png" class="country-img" alt="iran"/>
+                    <img src="iran.png" class="flag" alt="iran-flag"/>
+                    <h1 class="heading">Gate of All Nations, Iran</h1>
+                    <ul>
+                        <li>📍 Location: Persepolis, Iran</li>
+                        <li>🏗️ Architectural Style: Achaemenid Persian</li>
+                        <li>📏 Dimensions: Approx. 25m × 25m with towering columns</li>
+                        <li>🛠️ Construction Period: c. 486–465 BCE</li>
+                        <li>👑 Commissioned by: Xerxes I (Achaemenid Empire)</li>
+                        <li>🏢 Floors: 163 (plus maintenance levels)</li>
+                    </ul>
+                    <a href="https://en.wikipedia.org/wiki/Gate_of_All_Nations" target="_blank" class="btn">Discover More</a>
+                    </div>
+            
     </div>
 </body>
 </html>
