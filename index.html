@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Navbar</title>
     <style>
+        body{
+            padding: 0;
+            margin: 0;
+        }
         .product-container{
             display: flex;
             flex-wrap: wrap;
@@ -49,6 +53,7 @@
         margin: 10px auto;
         font-size: 15px;
         width: 100px;
+        text-decoration: none;
         }
   .btn:hover{
     color: white;
@@ -63,6 +68,22 @@
     position: absolute;
     top: 5px;
     right: 5px;
+  }
+  .Navbar{
+    height: 80px;
+    background-color: #A5158C;
+    color: white;
+    top: 0;
+    position: sticky;
+    z-index: 100;
+    font-style: italic;
+    font-size: 30px;  
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+  }
+  .Navbar-heading{
+    margin-left: 350px;
   }
   /* Mobile Device */
   @media (max-width:700px){
@@ -100,6 +121,10 @@
     </style>
 </head>
 <body>
+    <div class="Navbar">
+        <b class="Navbar-heading">
+        "Hey! Check out our cards and tap the link to learn more!"</b>
+    </div>
     <div class="product-container">
         <div class="country-card">
         <img src="burj-khalifa.png" class="country-img" alt="dubai"/>
