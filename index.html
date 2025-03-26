@@ -67,26 +67,28 @@
     right: 5px;
   }
   .Navbar{
-    height: 80px;
+    height: 100px;
     background-color: #A5158C;
     color: white;
     top: 0;
     position: sticky;
     z-index: 100;
-    font-size: 30px;  
-    align-items: center;
-    display: flex;
-    flex-direction: row;
+    font-size: 20px;  
+    
   }
   .Navbar-heading{
-    margin-left: 210px;
+    margin-left: 330px;
   }
-  .Navbar-heading:hover{
-    font-size: 30px;
-    color: #D69ADE;
-    border-bottom: 1px solid;
-  }
+     .Navbar-container{
 
+     }
+     .nav-menu{
+        color: white;
+        text-decoration: none;
+        font-size: 15px;
+        margin: 0 1px;
+       margin-left: 200px;
+     }
   /* Mobile Device */
   @media (max-width:700px){
     body {
@@ -166,6 +168,14 @@
 <body>
     <div class="Navbar">
         <h3 class="Navbar-heading">"Explore the world with our country cards! Tap the link to start your journey."</h3>
+        <div class="Navbar-container">
+            <a href=""  class="nav-menu">About</a>
+            <a href=""  class="nav-menu">details</a>
+            <a href=""  class="nav-menu">book slots</a>
+            <a href=""  class="nav-menu">help</a>
+            <a href=""  class="nav-menu">contact</a>
+
+        </div>
     </div>
     <div class="product-container">
         <div class="country-card">
